@@ -50,3 +50,9 @@ What it would cover:
 * hashes (for weather -> ideas)
 * json
 * api call
+
+## To Do app
+
+Easy.
+
+Manage two files. One for todo, one for completed. Easily add, delete, and checkoff items. More of a menu system than anything else.

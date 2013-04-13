@@ -23,4 +23,15 @@ class Grid
     puts "y"
   end
 
+  # lame use for yield. Could just be an argument
+  def ask_for_x_y
+    puts yield
+    print "x: "
+    x = gets.chomp.to_i
+    print "y: "
+    y = gets.chomp.to_i
+
+    [x,y]
+  end
+
 end
